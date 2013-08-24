@@ -1,6 +1,16 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+function useItem(x,y,z,itemId,blockId,side)
+{
+        if(itemId==291&&blockId==4)//If your item is a stone hoe, and the block your using it on is stone
+        {
+          addItemInventory(3,5);//Add 5 Dirt blocks to your inventory.
+                print("Hello World");
+        }
+}
+function attackHook(attacker, victim)
+{
+	//Your Code Here
+}
+function modTick()
+{
+	//Your Code Here
+}
